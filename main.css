@@ -179,6 +179,7 @@ section h1, section h3, section h4, .footer h4{
 .section3 .box:hover{
     
     box-shadow:  2px 5px 10px rgba(24, 153, 24, 0.884);
+    border:none;
 }
 .section3 .box1{
     height:160px;
