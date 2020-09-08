@@ -1,5 +1,6 @@
 <?php 
-
+include_once('./gnuboard5/common.php'); 
+include_once(G5_LIB_PATH.'/latest.lib.php'); 
 ?>
 <!DOCTYPE html>
 <html lang="kr">
@@ -203,37 +204,10 @@
 
             <section class="section4">
                 <div class ="container">
-                    <!-- <a href="/gnu/bbs/write.php?bo_table=QnA" style="float:right; padding:10px; margin-top: 10px; background:#fff; border-radius:5px; color:#000; text-decoration:none;">글쓰기</a>
+                    <?php echo latest("basic", "LatestNews_Gunrin", 6, 26); ?> 
+                    <a href="http://gunrin.net/gnuboard5/bbs/board.php?bo_table=LatestNews_Gunrin" class="lt_moree">더보기</a>
                 
-        <div class="lat">
-    <h2 class="lat_title"><a href="http://g2mpartners.net/gnu/bbs/board.php?bo_table=QnA">QnA</a></h2>
-    <ul>
-            <li class="basic_li">
-            <a href="http://g2mpartners.net/gnu/bbs/board.php?bo_table=QnA&amp;wr_id=4"> test3</a><span class="new_icon">N<span class="sound_only">새글</span></span>             <div class="lt_info">
-				<span class="lt_nick"><span class="sv_member">최고관리자</span></span>
-            	<span class="lt_date">09:40</span>              
-            </div>
-        </li>
-            <li class="basic_li">
-            <a href="http://g2mpartners.net/gnu/bbs/board.php?bo_table=QnA&amp;wr_id=3"> test2</a><span class="new_icon">N<span class="sound_only">새글</span></span>             <div class="lt_info">
-				<span class="lt_nick"><span class="sv_member">최고관리자</span></span>
-            	<span class="lt_date">06-17</span>              
-            </div>
-        </li>
-            <li class="basic_li">
-            <a href="http://g2mpartners.net/gnu/bbs/board.php?bo_table=QnA&amp;wr_id=2"> test</a><span class="new_icon">N<span class="sound_only">새글</span></span>             <div class="lt_info">
-				<span class="lt_nick"><span class="sv_member">최고관리자</span></span>
-            	<span class="lt_date">06-17</span>              
-            </div>
-        </li>
-            </ul>
-    <a href="http://g2mpartners.net/gnu/bbs/board.php?bo_table=QnA" class="lt_more"><span class="sound_only">QnA</span>더보기</a> -->
-
-</div>
- 
- 
                 </div>
-                
 
             </section>
 
